@@ -1,0 +1,112 @@
+body {
+    background: #000 url('../img/shade.jpg') repeat;
+    position: relative;
+    margin:0;
+}
+.container{
+    position: relative;
+    width:1280px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.left-logo{
+    float: right;
+    background-color: rgba(3, 0, 0, 0.41);
+    color:#fff;
+    padding: 15px;
+    margin:0;
+}
+.jumbotron {
+    position: absolute;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    max-height: 800px;
+    z-index: -10;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-image: url('../img/bg2.jpg');
+    zoom: 1;
+    
+}
+.logo{
+    text-align: center;
+    color:#fff;
+    width:500px;
+    margin: 0 auto;
+}
+.logo img{
+    margin-top:150px;
+}
+.logo h4{
+    text-shadow: 0px 3px 5px #898888;
+}
+nav{
+    width:500px;
+    margin: 50px auto;
+    font-size: 18px;
+    text-align:center;
+}
+nav a{
+    color:#fff;
+    text-shadow: 0px 3px 5px #898888;
+    margin:0 15px;
+    text-decoration: none;
+    padding:10px 15px;
+    position: relative;
+}
+
+nav a:after {
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: width .3s;
+    width: 0;
+    border-bottom: 3px #fff solid;
+}
+nav a:hover:after {
+    width: 100%;
+}
+.main{
+    position: relative;
+    background-color:#fff;
+    box-shadow: 1px 1px 13px 3898888;
+    min-height: 1000px;
+    padding:15px;
+}
+.main>div{
+    padding:15px;
+    display:table-cell;
+}
+.main-left{
+
+}
+.main-right{
+    width:350px;
+    border-left:1px #ccc dashed;
+}
+footer{
+    color:#fff;
+    margin:10px auto;
+    width:auto;
+    text-align:center;
+    font-size:12px;
+    padding:15px;
+}
+.list{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.list li{
+
+}
